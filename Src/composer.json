@@ -1,0 +1,17 @@
+{
+    "name": "vinicius/monicao",
+    "description": "Gerenciador de Dependencias",
+    "authors": [
+        {
+            "name": "vinicius1541",
+            "email": "vinicius-bernado2011@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "../app/",
+            "Src\\": "../Src/"
+        }
+    },
+    "require": {}
+}
