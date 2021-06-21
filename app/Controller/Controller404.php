@@ -1,8 +1,17 @@
 <?php
 namespace App\Controller;
 
-class Controller404 {
+use Src\Classes\ClassRender;
+use Src\Interfaces\InterfaceView;
+
+class Controller404 extends ClassRender implements InterfaceView {
     public function __construct() {
-        require_once(DIRREQ . 'app/View/404/404.html');
+        $this->setTitle("404 - Not Found");
+        $this->setKeyword("mvc project, vinicius1541, github");
+        $this->setCustomHead(false);
+        $this->setCustomHeader(false);
+        $this->setCustomFooter(false);
+        $this->setDir("404");
+        $this->renderLayout();
     }
 }

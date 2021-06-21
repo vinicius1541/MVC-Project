@@ -15,6 +15,7 @@ class ClassRoutes {
             "" => "ControllerHome", # redirect para ControllerHome se a url for vazia
             "home" => "ControllerHome",
             "login" => "ControllerLogin",
+            "404" => "Controller404"
         );
         if(array_key_exists($index, $this->route)) { # se existir o caminho digitado dentro das rotas do array
             if(file_exists(DIRREQ."app/controller/{$this->route[$index]}.php")) { # se o arquivo do caminho existir
