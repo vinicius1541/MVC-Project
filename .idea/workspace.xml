@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cae4b36-a1be-48a8-ad15-4eda5f50da55" name="Default Changelist" comment="" />
+    <list default="true" id="3cae4b36-a1be-48a8-ad15-4eda5f50da55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Src/interfaces/InterfaceView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/View/404/Main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Classes/ClassRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Classes/ClassRoutes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controller/Controller404.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controller/Controller404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controller/ControllerHome.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controller/ControllerHome.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/404/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +19,14 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/Src/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,10 +51,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/View/404" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -47,9 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Apps\Xampp\htdocs\app\View\404" />
       <recent name="E:\Apps\Xampp\htdocs\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Apps\Xampp\htdocs\app\View\404" />
       <recent name="E:\Apps\Xampp\htdocs" />
     </key>
   </component>
@@ -62,11 +83,22 @@
       <option name="presentableId" value="Default" />
       <updated>1624205601793</updated>
       <workItem from="1624205602998" duration="580000" />
-      <workItem from="1624279079822" duration="6724000" />
+      <workItem from="1624279079822" duration="18983000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
