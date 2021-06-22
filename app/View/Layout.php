@@ -4,6 +4,11 @@
     <?php echo $this->addHead(); ?>
 </head>
 <body>
+    <div class="nav">
+        <a href="<?= DIRPAGE ?>">Home</a>
+        <a href="<?= DIRPAGE . 'contact'?>">Contact </a>
+    </div>
+
     <div class="header">
         <?php echo $this->addHeader(); ?>
     </div>

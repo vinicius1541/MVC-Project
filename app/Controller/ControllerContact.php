@@ -1,13 +1,14 @@
 <?php
 namespace App\Controller;
+
 use Src\Classes\ClassRender;
 use Src\Interfaces\InterfaceView;
 
-class ControllerHome extends ClassRender implements InterfaceView {
+class ControllerContact extends ClassRender implements InterfaceView {
     public function __construct() {
-        $this->setTitle("Home page");
+        $this->setTitle("Contact page");
         $this->setKeyword("mvc project, vinicius1541, github");
-        $this->setDir("Home");
+        $this->setDir("Contact");
         $this->renderLayout();
     }
 }
