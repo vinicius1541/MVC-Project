@@ -8,6 +8,11 @@
         <a href="<?= DIRPAGE ?>">Home</a>
         <a href="<?= DIRPAGE . 'contact'?>">Contact </a>
     </div>
+    <?php
+        # Retire esses comentários para usar os breadcrumbs!
+        # $breadcrumb = new Src\Classes\ClassBreadcrumb();
+        # $breadcrumb->addBreadcrumb();
+    ?>
 
     <div class="header">
         <?php echo $this->addHeader(); ?>
