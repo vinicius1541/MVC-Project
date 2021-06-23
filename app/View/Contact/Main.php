@@ -1,15 +1,15 @@
 <div class="center">
     <main class="container">
         <h2>Contact Form</h2>
-        <form action="">
+        <form name="contactForm" id="contactForm" action="<?=DIRPAGE.'contact/saveMessage'?>" method="POST">
             <div class="input-field">
                 <input type="text" name="name" id="name" placeholder=" ">
                 <label class="input-label" for="name">Name</label>
                 <div class="underline"></div>
             </div>
             <div class="input-field">
-                <input type="email" name="mail" id="mail" placeholder=" ">
-                <label class="input-label" for="mail">E-mail</label>
+                <input type="email" name="email" id="email" placeholder=" ">
+                <label class="input-label" for="email">E-mail</label>
                 <div class="underline"></div>
             </div>
             <div class="input-field">

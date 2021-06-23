@@ -151,3 +151,48 @@ textarea {
     resize: none;
     width: 100%;
 }
+.center-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message {
+    font-size: 1em;
+    position: relative;
+    max-width: 35em;
+    min-width: 35em;
+    min-height: 08vh;
+    margin: 1em 0;
+    background: #F8F8F9;
+    line-height: 1.42em;
+    padding: 1em 1.5em;
+    transition: all .3s ease-out;
+    transform-origin: right;
+    border-radius: 3px;
+}
+@media (max-width: 600px) {
+    .message {
+        font-size: 1em;
+        position: relative;
+        max-width: 20em;
+        min-width: 20em;
+        min-height: 08vh;
+        margin: 1em 0;
+        background: #F8F8F9;
+        line-height: 1.42em;
+        padding: 1em 1.5em;
+        transition: all .3s ease-out;
+        transform-origin: right;
+        border-radius: 8px
+    }
+}
+.green.message {
+    background-color: #E5F9E7;
+    color: #1EBC30;
+    box-shadow: 0 0 0 1px #1EBC30 inset, 0 0 0 0 transparent;
+}
+.red.message {
+    background-color: #ffe8e6;
+    color: #DB2828;
+    box-shadow: 0 0 0 1px #DB2828 inset, 0 0 0 0 transparent;
+}
