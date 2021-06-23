@@ -23,7 +23,7 @@ const DIRJS = DIRPAGE . "public/js";
 
 #ACESSO BANCO DE DADOS
 const HOST = "localhost";
-const DB = "odonto_project";
+const DB = "mvc_project";
 const USER ="root";
 const PASS = "12345";
 
