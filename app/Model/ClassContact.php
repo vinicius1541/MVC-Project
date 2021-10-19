@@ -18,10 +18,6 @@ class ClassContact extends ClassConnection {
         $this->database->bindParam(":phone",$phone, \PDO::PARAM_STR);
         $this->database->bindParam(":message",$message, \PDO::PARAM_STR);
 
-        if($this->database->execute()) {
-            return true;
-        } else {
-            return false;
-        }
+        return $this->database->execute();
     }
 }
